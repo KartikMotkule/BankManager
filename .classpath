@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-17">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" path="src/main/java"/>
+	<classpathentry kind="con" path="org.eclipse.jst.server.core.container/org.eclipse.jst.server.tomcat.runtimeTarget/Apache Tomcat v9.0">
+		<attributes>
+			<attribute name="owner.project.facets" value="jst.web"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.web.container"/>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/bankingApplication"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/BookManagementApp"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/HibernateDemoProject"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/javaDemoApp"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/MyJDBC"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/PracticeCode"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/UserLoginApplication"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/WebApplication1"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/webapplication2"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/Hibernate Jar/ant-1.6.5.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/Hibernate Jar/ant-antlr-1.6.5.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/Hibernate Jar/antlr-2.7.7.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/Hibernate Jar/cglib-2.1.3.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/Hibernate Jar/commons-collections-2.1.1.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/Hibernate Jar/commons-logging-1.0.4.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/Hibernate Jar/dom4j-1.6.1.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/Hibernate Jar/ehcache-1.1.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/Hibernate Jar/hibernate3.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/Hibernate Jar/jdbc2_0-stdext.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/Hibernate Jar/jta.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/Hibernate Jar/log4j-1.2.11.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/Hibernate Jar/log4j-core-2.20.0-javadoc.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/Hibernate Jar/mysql-connector-j-9.1.0.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/Hibernate Jar/tomcat-servlet-api-9.0.4.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/Hibernate Jar/xml-apis.jar"/>
+	<classpathentry kind="output" path="build/classes"/>
+</classpath>

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MoneyManager</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body >
+<form action="home" method="post">
+<input type="hidden" name="action" value="home">
+    <header>
+        <h1>MoneyManager</h1>
+        <nav>
+            <ul>
+                <li><a href="Home.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="login">
+        <h2>Login</h2>
+        
+            <div>
+                <label for="login-username">Username:</label>
+                <input type="text" id="login-username" name="username" required>
+            </div>
+            <div>
+                <label for="login-password">Password:</label>
+                <input type="password" id="login-password" name="password" required>
+            </div>
+            <button type="submit">Login</button>
+        
+        <p>Don't have an account? <a href="SignUp.html" class="new-user">Sign up</a></p>
+    </section>
+
+    <footer>
+        <div id="date-time"></div>
+    </footer>
+
+    <script src="script.js"></script>
+    </form>
+</body>
+</html>

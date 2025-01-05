@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up - MoneyManager</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body >
+<div class="container">
+    <h3>Sign Up</h3>
+    <main>
+        <form id="signup-form" action="signup" method="post">
+        <input type="hidden" name="action" value="signup">
+        
+            <div>
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" placeholder="UserName" required>
+            </div>
+            <div>
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" placeholder="Password" required>
+            </div>
+            <div>
+                <label for="confirm-password">Confirm Password:</label>
+                <input type="password" id="confirm-password" name="confirm-password" placeholder="Confirm Password" required>
+            </div>
+            <div>
+                <label for="security-question">Security Question:</label>
+                <select id="security-question" name="security-question" required>
+                    <option disabled selected>Select a question</option>
+                    <option value="pet">What is your pet's name?</option>
+                </select>
+            </div>
+            <div>
+                <label for="security-answer">Answer:</label>
+                <input type="text" id="security-answer" name="security-answer" placeholder="Answer" required>
+            </div>
+            <button type="submit">Sign Up</button>
+            <p><a href="Home.html" class="new-user">Back to Login</a></p>
+        </form>
+    </main>
+</div>
+<footer>
+    <div id="date-time"></div>
+</footer>
+
+    <script src="script.js"></script>
+    
+</body>
+</html>
