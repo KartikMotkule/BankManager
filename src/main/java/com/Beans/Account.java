@@ -7,6 +7,7 @@ public class Account
     private String fullName;
     private String accountType;
     private double bal;
+    private double initbal;
 
     // Constructor
     public Account() {}
@@ -17,6 +18,7 @@ public class Account
         this.fullName = fullName;
         this.accountType = accountType;
         this.bal = bal;
+        initbal =bal;
     }
 
     // Getters and Setters
