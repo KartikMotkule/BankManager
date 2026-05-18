@@ -7,6 +7,7 @@ public class User {
     private String password;
     private String secQue;
     private String secAns;
+    private String Village;
 
     // Constructor
     public User(String userName, String password, String secQue, String secAns) {
