@@ -8,6 +8,7 @@ public class User {
     private String secQue;
     private String secAns;
     private String Town;
+    private String Village;
 
     // Constructor
     public User(String userName, String password, String secQue, String secAns) {
